@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Marck+Script&display=swap');
+
+html {
+  font-size: 36px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+nav {
+  background-color: white;
+  /* height: 60px; */
+  height: 10vh;
+  min-height: 80px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  line-height: 60px;
+  padding: 0 16px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:not(.logo-container) {
+  padding: 0 16px;
+  display: none;
+}
+
+nav ul li.logo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li.logo-container img {
+  height: 80%;
+  width: auto;
+  margin-right: 16px;
+}
+
+nav ul li.logo-container h2 {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #000;
+}
+
+nav ul li.logo-container small {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+section {
+  padding: 32px;
+}
+
+section.neck {
+  background-color: gray;
+  min-height: 40vh;
+  background-image:url('assets/images/neck.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 64px;
+}
+
+section.neck > div {
+  width: 100%;
+  align-items: center;
+}
+
+section.neck > div .text-wrapper small {
+  display: block;
+  font-size: 60%;
+  font-weight: 300;
+}
+
+section.neck .text-wrapper h1 {
+  margin: 32px 0;
+  color: #ffffff;
+  font-size: 42px;
+}
+
+section.neck > div .btn-wrapper {
+  text-align: center;
+}
+
+section.neck .flex-container {
+  min-height: 60vh;
+  justify-content: left;
+  align-items: center;
+}
+
+section.neck .text-wrapper a {
+  background-color: #c8eaee;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
+
+section.quando {
+  background: linear-gradient(to right, rgba(255, 255, 255, .95), rgba(255, 255, 255, .95)), url('assets/images/logo.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.quando ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+section.quando ul li {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+section.ambito-intervento {
+  background: url('assets/images/background-line-pink.webp');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+section.lo-studio .text-wrapper {
+  width: 100;
+  text-align: center;
+}
+
+section.lo-studio .img-wrapper {
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+section.lo-studio .img-wrapper img {
+  flex: 1;
+  width: 18%;
+}
+
+section.lo-studio address {
+  color: #666;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+section.lo-studio .col:first-child {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+section.blockquote {
+  margin: 64px 0;
+  padding: 0 64px;
+  background-color: rgb(231, 231, 231);
+}
+
+section.blockquote .col-img {
+  width: 100%;
+  text-align: center;
+}
+
+section.dove-siamo {
+  padding: 32px;
+}
+
+section.dove-siamo h2{
+  margin-bottom: 0;
+}
+
+section.blockquote iframe {
+  width: 60%;
+  margin: -2rem auto -2rem auto;
+  border: 8px solid #aaa;
+}
+
+section.blockquote blockquote {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(112, 87, 124);
+  margin: 4rem 0;
+  line-height: 2.6rem;
+}
+
+section.blockquote blockquote sub {
+  font-size: 4rem;
+}
+
+section.blockquote .text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+section.blockquote blockquote cite {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  font-style: italic;
+}
+
+section.contatti .d-flex {
+  gap: 16px;
+}
+
+section.contatti h2 {
+  text-align: center;
+}
+
+section.contatti ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+section.contatti li {
+  margin: 0;
+  padding: 0;
+}
+
+section.contatti .colloquo-su-appuntamento {
+  font-style: italic;
+  color: #000000;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+footer ul li {
+  line-height: 80px;
+  padding: 0 32px;
+}
+
+/* .font-mark-script {
+  font-family: 'Marck Script', cursive;
+} */
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex .col {
+  flex: 0 1 auto;
+}
+
+.text-wrapper {
+  height: fit-content;
+}
+
+section > h2,
+.text-wrapper h2,
+.text-wrapper h3.h2 {
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-wrapper p {
+  color: #404040;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.w-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.w-870 {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.d-none {
+  display: none;
+}
+
+.btn-whatsApp {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  padding: 16px;
+  background-color: #25d366;
+  border-radius: 50%;
+  right: 30px;
+  bottom: 30px;
+  display: inline-flex;
+  color: white;
+}
+.btn-whatsApp i {
+  width: 100%;
+  background-color: #fff;
+  mask: url('assets/images/whatsapp.svg') no-repeat center / contain;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  html {
+    font-size: 14px;
+  }
+  
+  nav ul li:not(.logo-container) {
+    padding: 0 16px;
+    display: flex;
+    font-size: 16px;
+  }
+
+  section {
+    padding: 64px;
+  }
+  
+  section.neck > div .text-wrapper {
+    max-width: 70%;
+  }
+  
+  section.neck > div .btn-wrapper {
+    text-align: left;
+  }
+  
+  section.contatti .col:first-child {
+    text-align: right;
+  }
+  
+  section.blockquote blockquote {
+    margin: 32px 0;
+  }
+  
+  .d-flex .col {
+    flex: 1;
+  }
+  
+  .text-wrapper h1,
+  .text-wrapper h2,
+  .text-wrapper h3.h2 {
+    text-align: left;
+  }
+}
